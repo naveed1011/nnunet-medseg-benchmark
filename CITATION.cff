@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or the comparison protocol, cite it as below."
+title: "nnU-Net vs Swin UNETR: a small, reproducible 3D medical segmentation benchmark"
+abstract: >-
+  A reproducible comparison of nnU-Net v2 and MONAI Swin UNETR on 3D medical
+  volumes, with a shared fixed split, identical metrics, and gradient-based
+  explainability of both models' predictions.
+authors:
+  - family-names: Ahmad
+    given-names: Naveed
+repository-code: "https://github.com/naveed1011/nnunet-medseg-benchmark"
+url: "https://github.com/naveed1011/nnunet-medseg-benchmark"
+license: MIT
+keywords:
+  - medical image segmentation
+  - nnU-Net
+  - Swin UNETR
+  - BraTS
+  - explainability
+type: software

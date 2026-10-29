@@ -1,0 +1,8 @@
+# Lightweight dependencies for `pytest` only — no nnU-Net, no torch, no GPU.
+# The torch-based XAI tests skip themselves when torch is absent, so CI stays fast.
+pytest>=8.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+nibabel>=5.0

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# nnU-Net working folders (large binaries — never commit these)
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+DATASET_RAW/
+data/raw/
+data/downloads/
+
+# Generated run artifacts (reproducible, not source)
+/outputs/
+/results/
+/predictions/
+/demo/
+*.zip
+*.log
+
+# Model weights
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Curated results ARE committed: docs/figures/ and docs/results/ are not ignored
+!docs/figures/
+!docs/results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment
+.env

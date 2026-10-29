@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# shell scripts must stay LF or they fail with "bad interpreter" on Linux/Kaggle
+*.sh text eol=lf
+
+*.png binary
+*.jpg binary
+*.ipynb text
