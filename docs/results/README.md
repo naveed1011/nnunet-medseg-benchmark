@@ -1,6 +1,6 @@
 # Results
 
-Everything in this folder is **generated**, not hand-written. Each run folder contains:
+Everything in this folder is not currently the results as they are pending and I will do it soon.
 
 ```
 RESULTS.md                     # table + auto-generated observations + caveats
@@ -11,7 +11,7 @@ figures/bar_dice_by_label.png
 figures/scatter_dice_vs_hd95.png
 ```
 
-Regenerate any of them from the per-case CSVs:
+I will Regenerate them from the per-case CSVs:
 
 ```bash
 python -m src.compare \
@@ -22,8 +22,7 @@ python -m src.compare \
 
 | Folder | What it is |
 |---|---|
-| `demo/` | Synthetic-phantom smoke test (`python run_pipeline.py demo`). Proves the pipeline; **not** a medical result. |
+| `demo/` | Synthetic-phantom smoke test (`python run_pipeline.py demo`). Proves the pipeline works and the results are; **not** a medical result yet. |
 | `brats/` | The real comparison, produced by `notebooks/04_compare_nnunet_vs_swin.ipynb`. |
 
-Numbers in `RESULTS.md` are per-case means over held-out volumes only. Read the caveats at the
-bottom of that file before quoting anything.
+Numbers in `RESULTS.md` are per-case currently which means over held-out volumes only.
