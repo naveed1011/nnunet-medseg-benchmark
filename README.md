@@ -260,11 +260,14 @@ a paper:
 - Sudre, C. H., et al. *The Medical Segmentation Decathlon.* arXiv:2106.05735 (2021).
 - Baid, U., et al. *The RSNA-ASNR-MICCAI BraTS 2021 Benchmark.* arXiv:2107.02314 (2021).
 
-## License
+## Author
+**Naveed Ahmad** — GitHub: @naveed1011
+Built to understand nnU-Net from the inside out — part of my research in medical image segmentation and trustworthy medical AI.
 
+## License
 MIT — see [LICENSE](LICENSE). nnU-Net is Apache-2.0 (DKFZ); MSD is CC-BY-SA 4.0; BraTS data
 has its own competition terms.
 
 ---
 
-*If you spot a mistake, please open an issue. I would rather fix it here than in a paper.*
+*If you spot a mistake, please open an issue. I would fix it here.*
